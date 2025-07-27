@@ -1,0 +1,108 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form_input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.todo_add_button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo_add_button:hover {
+  background-color: #45a049;
+}
+
+.todo_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  transition: background 0.3s ease;
+}
+
+.todo_item:hover {
+  background-color: #f1f1f1;
+}
+
+.todo_item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.todo_item p:last-child {
+  font-style: italic;
+  color:#919191
+}
+
+.todo_item button {
+  padding: 6px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo_item button:first-child {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.todo_item button:first-child:hover {
+  background-color: #c0392b;
+}
+
+.todo_item button:last-child {
+  background-color: #3498db;
+  color: white;
+}
+
+.todo_item button:last-child:hover {
+  background-color: #2980b9;
+}
